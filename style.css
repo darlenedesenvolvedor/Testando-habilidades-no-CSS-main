@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rgb(37, 35, 35);
+    background-image: url('../mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding: 0;
+    margin : 0;
+}
+
+.logo{
+    display: flex;
+    padding: 15px 5px 15px 5px;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(19, 167, 64);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover{
+    color: rgb(23, 170, 55);
+}
+
+.container {
+    text-align: center;
+
+}
+h1{
+    font-size: 30px
+}
+
+#imagem > img{
+    width: 250px;
+    height: 270px;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+}
+#about p{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #ffffff;
+    margin: auto;
+    display: block;
+    background: #ffffff;
+    color:black;
+    border-radius: 15px;
+}
+.form p{
+    font-size: 15px;
+    padding: 15px;
+}
+.form p:hover{
+    color: #20c248;
+}
+.form input{
+    background: #ffffff;
+    border-radius:5px 0px 0px 5px ;
+}
+.form button{
+    background: #ffffff;
+    color: black;
+    border-radius: 0px 5px 5px 0px;
+}
+/*/a{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+a:hover{
+    color: rgb(26, 184, 34);
+}
